@@ -94,7 +94,7 @@ export default function NoteEditor(props) {
     setTitle(event.target.value);
   };
   const updateBody = event => {
-    setTitle(event.target.value);
+    setBody(event.target.value);
   };
   const submit = () => {
     // ...save note...
